@@ -83,7 +83,7 @@ function arraysEqual(a, b) {
 
 function checkWordCords (word, start, direction) {
 
-    for (var n = 0; n <= word.length; n++ ) {
+    for (var n = -1; n <= word.length; n++ ) {
         if (direction) {
             var letterArr = [start[0], start[1]+n];
         } else {
